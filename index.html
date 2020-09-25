@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Weather Api</title>
+    <link rel="stylesheet" href="./assets/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="weather-box">
+            <div class="title">
+                <h2 class="card-title">Weather Api | Kaan KIVIRCIK</h2>
+                <img class="logo" src="./assets/logo_transparent.png" alt="">
+                <h2 class="nowYouAre">Şuan bulunduğun yer</h2>
+                <h2 class="nowYouAre coords"></h2>
+            </div>
+            <div class="row1">
+                <h2 class="weather-location">Ankara</h2>
+                <canvas class="weatherType" id="icon1" width="128" height="128"></canvas>
+            <div class="biginsiderow">
+                <h2 class="wind">Rüzgarın <br> Durumu</h2>
+            <div class="insiderow">
+                <canvas class="weatherType2" id="Wind" width="128" height="128"></canvas>
+                <div class="windNums">
+                <h1 class="temp1 windDeg">°<span>30.0</span></h1>
+                <h1 class="temp1 windSpeed"><span>3.00</span>Km</h1>
+            </div>
+            </div>
+        </div>
+                
+            </div>
+            <div class="row2">
+                <div class="tempBase">
+                    <h1 class="temp">30</h1>
+                    <span class="temp-type">°C</span>
+                </div>
+                <h2 class="weather-description">Bla bla bla</h2>
+            </div>
+            <p class="made-by">Made by Kaan KIVIRCIK with DevEd and FFC WEATHER API.</p>
+        </div>
+    </div>
+    <script src="./assets/js/skycons.js"></script>
+    <script src="./assets/js/jquery-3.2.1.min.js"></script>
+    <script src="./assets/js/project.js"></script>
+</body>
+
+</html>
